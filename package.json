@@ -1,0 +1,29 @@
+{
+  "name": "xr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.11.3",
+    "@react-three/fiber": "^8.0.22",
+    "@react-three/xr": "^3.5.0",
+    "@types/three": "^0.141.0",
+    "chart.js": "^3.8.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-chartjs-2": "^4.2.0",
+    "react-dom": "18.1.0",
+    "three": "^0.141.0",
+    "uuid-by-string": "^3.0.7",
+    "wouter": "^2.8.0-alpha.2"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
