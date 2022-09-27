@@ -36,7 +36,7 @@ function HitTestExample({ image }) {
 export default function App() {
   const router = useRouter();
   const id = router.query.id;
-  const imageRef = `https://fypaesthetics.s3.ap-south-1.amazonaws.com/${id}`;
+  const imageRef = `https://fypaesthetics.s3.ap-south-1.amazonaws.com/image-1661819380187.jpeg`;
   return (
     <Suspense fallback={"loading..."}>
       <ARCanvas
